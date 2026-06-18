@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background-color: hsl(241, 100%, 89%);
+}
+
+main {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.attribution {
+  text-align: center;
+}
+
+.parent-container {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.left-child {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.score-container {
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.score-text {
+  margin: 0;
+}
+
+.right-child {
+  background-color: white;
+  border-radius: 0 20px 20px 0;
+}
