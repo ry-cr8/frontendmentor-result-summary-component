@@ -78,7 +78,7 @@ main {
 
 .paragraph-text {
   margin: 0 50px;
-  margin-bottom: 42px;
+  margin-bottom: 25px;
   color: hsl(241, 100%, 89%);
   font-family: "HankenGrotesk", sans-serif;
   font-size: 14px;
@@ -96,14 +96,16 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 15px 15px;
+  margin: 15px 25px;
 }
 
 .sum {
-  margin: 20px 17px;
+  margin: 0 25px;
   font-weight: 700;
   color: hsl(224, 30%, 27%);
   font-family: "HankenGrotesk", sans-serif;
+  font-size: 20px;
+  margin-top: 26px;
 }
 
 .summary-content {
@@ -155,6 +157,30 @@ main {
   margin-right: 10px;
 }
 
-strong {
+.score strong {
   color: hsl(224, 30%, 27%);
+}
+
+.contbtn-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  padding-bottom: 35px;
+}
+
+.cont-btn {
+  border-radius: 20px;
+  border: none;
+  width: 250px;
+  height: 40px;
+  background-color: #303b5a;
+  color: white;
+  font-family: "HankenGrotesk", sans-serif;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cont-btn:hover {
+  background-color: #242e46;
 }
