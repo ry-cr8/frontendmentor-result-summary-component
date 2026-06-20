@@ -184,6 +184,17 @@ main {
   background-color: #242e46;
 }
 
+.attri-link {
+  text-decoration: none;
+  font-family: "HankenGrotesk", sans-serif;
+  color: black;
+}
+
+.attri-link a {
+  color: #303b5a;
+  text-decoration: none;
+}
+
 /* Mobile Layout */
 @media (max-width: 768px) {
   body {
