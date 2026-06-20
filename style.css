@@ -22,10 +22,11 @@ main {
 
 .parent-container {
   width: 100%;
-  max-width: 600px;
+  max-width: 736px;
   display: flex;
   border-radius: 20px;
   background-color: white;
+  overflow: hidden;
 }
 
 .left-child {
@@ -36,8 +37,7 @@ main {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  max-width: 300px;
+  flex: 1;
 }
 
 .result-text {
@@ -88,8 +88,7 @@ main {
 .right-child {
   background-color: white;
   border-radius: 0 20px 20px 0;
-  width: 100%;
-  max-width: 300px;
+  flex: 1;
 }
 
 .summary-container {
@@ -183,4 +182,56 @@ main {
 
 .cont-btn:hover {
   background-color: #242e46;
+}
+
+/* Mobile Layout */
+@media (max-width: 768px) {
+  body {
+    background-color: white;
+  }
+
+  main {
+    align-items: flex-start;
+  }
+
+  .parent-container {
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 375px;
+    border-radius: 0;
+    margin: 0 auto;
+  }
+
+  .left-child {
+    max-width: 100%;
+    border-radius: 0 0 30px 30px;
+    padding-bottom: 20px;
+  }
+
+  .right-child {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  .score-container {
+    width: 140px;
+    height: 140px;
+  }
+
+  .score-text {
+    font-size: 56px;
+  }
+
+  .paragraph-text {
+    margin: 0 35px 25px;
+  }
+
+  .summary-content {
+    max-width: 100%;
+  }
+
+  .cont-btn {
+    width: 100%;
+    max-width: 300px;
+  }
 }
