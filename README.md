@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution link](https://www.frontendmentor.io/solutions/results-summary-component-built-with-html-css-and-responsive-design-T8WmQLJ1Bu)
+- Live Site URL: [Live website](https://ry-cr8.github.io/frontendmentor-result-summary-component/)
 
 ## My process
 
@@ -44,8 +44,6 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
 ### AI Collaboration
 
 Describe how you used AI tools (if any) during this project. This helps demonstrate your ability to work effectively with AI assistants.
@@ -56,6 +54,5 @@ Describe how you used AI tools (if any) during this project. This helps demonstr
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@ry-cr8](https://www.frontendmentor.io/profile/ry-cr8)
+
